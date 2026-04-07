@@ -133,7 +133,7 @@
 &kp Q       &kp W    &kp E             &kp R         &kp T                                                            &kp Y          &kp U  &kp I      &kp O       &kp P
 &kp A       &kp S    &kp D             &kp F         &kp G               &to 1                 &kp MINUS              &kp H          &kp J  &kp K      &kp L       &kp SEMICOLON
 &kp Z       &kp X    &kp C             &kp V         &kp B               &kp EQUAL             &kp SINGLE_QUOTE       &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp ESCAPE  &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LANG2 LEFT_GUI  &lt 1 SPACE           &kp RETURN             &lt 2 LANG1                                  &kp BSPC
+&kp ESCAPE  &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 1 SPACE           &kp RETURN             &lt 2 LANG1                                  &kp BSPC
             >;
             sensor-bindings = <&scroll_move_y>;
         };
@@ -176,7 +176,7 @@
 &kp Q       &kp W    &kp E             &kp R         &kp T                                                      &kp Y          &kp U      &kp I     &kp O     &kp P
 &kp A       &kp S    &kp D             &kp F         &kp G               &kp N1          &kp MINUS              &kp H          &kp J      &kp K     &kp L     &kp SEMICOLON
 &kp Z       &kp X    &kp C             &kp V         &kp B               &kp EQUAL       &kp SINGLE_QUOTE       &kp N          &kp M      &mkp MB1  &mkp MB2  &kp SLASH
-&kp ESCAPE  &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LANG2 LEFT_GUI  &lt 1 SPACE     &kp RETURN             &lt 2 LANG1                                   &kp BSPC
+&kp ESCAPE  &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 1 SPACE     &kp RETURN             &lt 2 LANG1                                   &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -187,7 +187,7 @@
 &kp Q       &kp W      &kp E             &kp R           &kp T                                                  &kp Y        &kp U  &kp I      &kp O       &kp P
 &kp A       &kp S      &kp D             &kp F           &kp G                &kp N1          &kp MINUS         &kp H        &kp J  &kp K      &kp L       &kp SEMICOLON
 &kp Z       &kp X      &kp C             &kp V           &kp B                &kp EQUAL       &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp ESCAPE  &kp TAB    &kp LEFT_SHIFT    &kp LEFT_ALT    &mt LANG2 LEFT_GUI   &lt 1 SPACE     &kp RETURN        &lt 2 LANG1                                &kp BSPC
+&kp ESCAPE  &kp TAB    &kp LEFT_SHIFT    &kp LEFT_ALT    &mt LEFT_GUI LANG2   &lt 1 SPACE     &kp RETURN        &lt 2 LANG1                                &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
