@@ -130,12 +130,12 @@
 
         default_layer {
             bindings = <
-&kp Q                  &kp W    &kp E             &kp R         &kp T                                                            &kp Y          &kp U  &kp I      &kp O       &kp P
-&kp A                  &kp S    &kp D             &kp F         &kp G               &to 1                 &kp MINUS              &kp H          &kp J  &kp K      &kp L       &kp SEMICOLON
-&mt LEFT_SHIFT Z       &kp X    &kp C             &kp V         &kp B               &kp EQUAL             &kp SINGLE_QUOTE       &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp ESCAPE             &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 1 SPACE           &kp RETURN             &lt 2 LANG1                                  &kp BSPC
+&kp Q                  &kp W         &kp E             &kp R         &kp T                                                              &kp Y          &kp U  &kp I      &kp O       &kp P
+&kp A                  &kp S         &kp D             &kp F         &kp G                 &to 1                 &kp BSPC               &kp H          &kp J  &kp K      &kp L       &kp SEMICOLON
+&mt LEFT_SHIFT Z       &kp X         &kp C             &kp V         &kp B                 &kp EQUAL             &kp SINGLE_QUOTE       &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp ESCAPE             &kp LEFT_ALT  &kp LEFT_GUI      &kp TAB       &mt LEFT_SHIFT LANG2  &lt 1 SPACE           &kp RETURN             &lt 2 LANG1                                       &kp MINUS
             >;
-            sensor-bindings = <&rot_msc>;
+            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
@@ -173,13 +173,13 @@
 
         MOUSE {
             bindings = <
-&kp Q                  &kp W    &kp E             &kp R         &kp T                                                      &kp Y          &kp U      &kp I     &kp O     &kp P
-&kp A                  &kp S    &kp D             &kp F         &kp G               &kp N1          &kp MINUS              &kp H          &kp J      &kp K     &kp L     &kp SEMICOLON
-&mt LEFT_SHIFT Z       &kp X    &kp C             &kp V         &kp B               &kp EQUAL       &kp SINGLE_QUOTE       &kp N          &kp M      &mkp MB1  &mkp MB2  &kp SLASH
-&kp ESCAPE             &kp TAB  &kp LEFT_SHIFT    &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 1 SPACE     &kp RETURN             &lt 2 LANG1                                   &kp BSPC
+&kp Q                  &kp W         &kp E             &kp R         &kp T                                                         &kp Y          &kp U      &kp I     &kp O     &kp P
+&kp A                  &kp S         &kp D             &kp F         &kp G                   &kp N1          &kp BSPC              &kp H          &kp J      &kp K     &kp L     &kp SEMICOLON
+&mt LEFT_SHIFT Z       &kp X         &kp C             &kp V         &kp B                   &kp EQUAL       &kp SINGLE_QUOTE      &kp N          &kp M      &mkp MB1  &mkp MB2  &kp SLASH
+&kp ESCAPE             &kp LEFT_ALT  &kp LEFT_GUI      &kp TAB       &mt LEFT_SHIFT LANG2    &lt 1 SPACE     &kp RETURN            &lt 2 LANG1                                   &kp MINUS
             >;
 
-            sensor-bindings = <&rot_msc>;
+            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
         };
 
         SCROLL {
