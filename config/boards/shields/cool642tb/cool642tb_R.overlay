@@ -32,7 +32,7 @@
 
         /* SCROLL レイヤー (keymap では 5) の間だけ、Y移動を縦スクロールに変換 */
         scroll_layer_vertical_only {
-            layers = <5>;
+            layers = <1>;
             input-processors = <&y_to_wheel>;
         };
     };
