@@ -109,7 +109,7 @@
 
             // tap-ms下限メモ Yの値で可変: Y(15) <81>, Y(20) <65>, Y(25) <49>
 
-            tap-ms = <49>;
+            tap-ms = <50>;
         };
 
         // エンコーダー：マウススクロール(MOVE_X)
@@ -121,7 +121,7 @@
 
             // tap-ms下限メモ Xの値で可変: X(15) <81>, X(20) <65>, X(25) <49>
 
-            tap-ms = <49>;
+            tap-ms = <50>;
         };
 
 
@@ -135,7 +135,7 @@
 &mt LEFT_SHIFT Z       &kp X         &kp C             &kp V         &kp B                 &kp EQUAL             &kp SINGLE_QUOTE       &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp ESCAPE             &kp LEFT_ALT  &kp LEFT_GUI      &kp TAB       &mt LEFT_SHIFT LANG2  &lt 1 SPACE           &kp RETURN             &lt 2 LANG1                                       &kp MINUS
             >;
-            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         FUNCTION {
@@ -179,7 +179,7 @@
 &kp ESCAPE             &kp LEFT_ALT  &kp LEFT_GUI      &kp TAB       &mt LEFT_SHIFT LANG2    &lt 1 SPACE     &kp RETURN            &lt 2 LANG1                                   &kp MINUS
             >;
 
-            sensor-bindings = <&rot_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&scroll_move_y>;
         };
 
         SCROLL {
